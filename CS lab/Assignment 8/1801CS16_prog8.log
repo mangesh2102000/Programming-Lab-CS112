@@ -1,0 +1,42 @@
+1801CS16
+
+MARKS: 10
+
+COMMENTS:
+        Test Case 1 Passed: +5(1+2+2): 5
+        Test Case 2 Passed: +5(1+2+2): 5
+        
+Warning And Errors
+
+Outputs for Below Test Cases
+
+
+#####Input (Test Case 1)#####
+3
+1234 E A B C D D
+2312 A A A A A A
+2121 B E E A B B
+
+Expected Output = 
+Lis sorted by roll no
+1234 E A B C D D 8.05
+2121 B E E A B B 9.00
+2312 A A A A A A 9.00
+
+List sorted by CGPA
+2121 B E E A B B 9.00
+2312 A A A A A A 9.00
+1234 E A B C D D 8.05
+#####Output#####
+                
+list sorted by roll no
+1234 e a b c d d 8.05
+2121 b e e a b b 9.00
+2312 a a a a a a 9.00
+
+list sorted by cgpa
+2121 b e e a b b 9.00
+2312 a a a a a a 9.00
+1234 e a b c d d 8.05
+
+Evaluated by: Harsh

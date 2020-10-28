@@ -1,0 +1,57 @@
+1801CS16
+
+MARKS: 10
+
+COMMENTS:
+        Wrong Logic/No Implementaion: 0
+        Compilation Succ/Err(Correct Logic): 2: 2
+        Test Case 1 Passed: +2: 2
+        Test Case 2 Passed: +2: 2
+        Test Case 3 Passed: +2: 2
+        Test Case 4 Passed: +2: 2
+        
+Warning And Errors
+prog3.c:11:1: warning: return type of 'main' is not 'int' [-Wmain-return-type]
+void main()
+^
+prog3.c:11:1: note: change return type to 'int'
+void main()
+^~~~
+int
+1 warning generated.
+
+Outputs for Below Test Cases
+
+
+#####Input (Test Case 1)#####
+760
+Expected Output = p: 761 a: 19 b: 20
+
+#####Output#####
+                Enter a positive integer (n): 
+Final values are: Roll Number = 1801CS16 Input n = 760, p = 761, a = 19, b = 20
+
+#####Input (Test Case 2)#####
+761
+Expected Output = p: 761 a: 19 b: 20
+
+#####Output#####
+                Enter a positive integer (n): 
+Final values are: Roll Number = 1801CS16 Input n = 761, p = 761, a = 19, b = 20
+
+#####Input (Test Case 3)#####
+911
+Expected Output = p: 929 a: 20 b: 23
+
+#####Output#####
+                Enter a positive integer (n): 
+Final values are: Roll Number = 1801CS16 Input n = 911, p = 929, a = 20, b = 23
+
+#####Input (Test Case 4)#####
+1234567890
+Expected Output = p: 1234567913 a: 1168 b: 35117
+
+#####Output#####
+                Enter a positive integer (n): 
+Final values are: Roll Number = 1801CS16 Input n = 1234567890, p = 1234567913, a = 1168, b = 35117
+Evaluated by: Harsh

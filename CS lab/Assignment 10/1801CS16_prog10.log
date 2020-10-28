@@ -1,0 +1,65 @@
+1801CS16
+
+MARKS: 10
+
+COMMENTS:
+        Marks deducted due to late Submission: 0
+        Test Case 1 Passed: +10(2+2+3+3): 10
+        
+Warning And Errors
+prog10.c:117:11: warning: using integer absolute value function 'abs' when argument is of floating point type [-Wabsolute-value]
+                        diff = abs(a[i]-imean[0]);
+                               ^
+prog10.c:117:11: note: use function 'fabsf' instead
+                        diff = abs(a[i]-imean[0]);
+                               ^~~
+                               fabsf
+prog10.c:117:11: note: include the header <math.h> or explicitly provide a declaration for 'fabsf'
+prog10.c:121:8: warning: using integer absolute value function 'abs' when argument is of floating point type [-Wabsolute-value]
+                                if(abs(a[i]-imean[k]) < diff)
+                                   ^
+prog10.c:121:8: note: use function 'fabsf' instead
+                                if(abs(a[i]-imean[k]) < diff)
+                                   ^~~
+                                   fabsf
+prog10.c:121:8: note: include the header <math.h> or explicitly provide a declaration for 'fabsf'
+prog10.c:123:13: warning: using integer absolute value function 'abs' when argument is of floating point type [-Wabsolute-value]
+                                        diff = abs(a[i]-imean[k]);
+                                               ^
+prog10.c:123:13: note: use function 'fabsf' instead
+                                        diff = abs(a[i]-imean[k]);
+                                               ^~~
+                                               fabsf
+prog10.c:123:13: note: include the header <math.h> or explicitly provide a declaration for 'fabsf'
+3 warnings generated.
+
+Outputs for Below Test Cases
+
+
+#####Input (Test Case 1)#####
+ip.txt
+2
+P1 2
+P2 3
+P3 4
+P4 10
+P5 11
+P6 12
+P7 20
+P8 25
+P9 30
+M P3 P6
+
+Expected Output = 
+op.txt
+Group1: P1 P2 P3 P4 P5 P6 
+Group2: P7 P8 P9
+Mean1: 7
+Mean2: 25
+#####Output#####
+                GROUP1: P1 P2 P3 P4 P5 P6 
+GROUP2: P7 P8 P9 
+MEAN1: 7.000000
+MEAN2: 25.000000
+
+Evaluated by: Harsh

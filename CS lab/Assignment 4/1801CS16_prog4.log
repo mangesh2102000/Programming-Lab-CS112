@@ -1,0 +1,30 @@
+1801CS16
+
+MARKS: 10
+
+COMMENTS:
+        Wrong Logic/No Implementaion: 0
+        Test Case 1 Passed: +5: 5
+        Test Case 2 Passed: +5: 5
+        
+Warning And Errors
+
+Outputs for Below Test Cases
+
+
+#####Input (Test Case 1)#####
+18 25
+Expected Output = 10010 11001 3 11011 10101
+
+#####Output#####
+                Enter two decimal integers : The desired output : 10010 11001 3 11011 10101
+
+
+#####Input (Test Case 2)#####
+1000 1023
+Expected Output = 1111101000 1111111111 4 1000011100 1000000000
+
+#####Output#####
+                Enter two decimal integers : The desired output : 1111101000 1111111111 4 1000011100 1000000000
+
+Evaluated by: Harsh

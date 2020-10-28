@@ -1,0 +1,32 @@
+1801CS16
+
+MARKS: 10
+
+COMMENTS:
+        Wrong Logic/No Implementaion: 0
+        Test Case 1 Passed: +5: 5
+        Test Case 2 Passed: +5: 5
+        
+Warning And Errors
+
+Outputs for Below Test Cases
+
+
+#####Input (Test Case 1)#####
+2 2 A 1 1
+Expected Output = [B] Type 3 point
+
+#####Output#####
+                Enter Input : The desired output after adding new point : 
+[B]  Type 3 point
+
+
+#####Input (Test Case 2)#####
+2 2 A 6 8
+Expected Output = [B K] Type 1 point
+
+#####Output#####
+                Enter Input : The desired output after adding new point : 
+[B K]  Type 1 point
+
+Evaluated by: Harsh

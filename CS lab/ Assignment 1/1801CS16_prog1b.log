@@ -1,0 +1,42 @@
+1801CS16
+
+MARKS: 10
+
+COMMENTS:
+        Wrong Logic/No Implementaion: 0
+        Compilation Succ/Err(Correct Logic): 5: 5
+        Correct IO: +5: 5
+        
+Warning And Errors
+prog1b.c:8:1: warning: return type of 'main' is not 'int' [-Wmain-return-type]
+void main()
+^
+prog1b.c:8:1: note: change return type to 'int'
+void main()
+^~~~
+int
+1 warning generated.
+
+Outputs for Below Test Cases
+
+
+#####Input (Test Case 1)#####
+9 2 6 2
+Expected Output =
+profitPercentage for MinMall is 29.05%
+Paid price for MinMall is Rs 585
+profitPercentage for MaxMall is 35.4%
+Paid price for MaxMall is Rs 620
+So, MaxMall will be more profitable
+
+#####Output#####
+                Enter the number of items to be bought for Jam, Toothpaste, Juice and Nutella: 
+profitPercentage for MinMall is 29.059830%
+Paid price for MinMall is Rs 585
+
+profitPercentage for MaxMall is 35.483871%
+Paid price for MaxMall is Rs 620
+
+So, MaxMall will be more profitable
+
+Evaluated by: Harsh

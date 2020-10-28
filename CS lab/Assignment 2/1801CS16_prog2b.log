@@ -1,0 +1,37 @@
+1801CS16
+
+MARKS: 10
+
+COMMENTS:
+        Wrong Logic/No Implementaion: 0
+        Compilation Succ/Err(Correct Logic): 4: 4
+        Test Case 1 Passed: +3: 3
+        Test Case 2 Passed: +3: 3
+        
+Warning And Errors
+prog2b.c:8:1: warning: return type of 'main' is not 'int' [-Wmain-return-type]
+void main()
+^
+prog2b.c:8:1: note: change return type to 'int'
+void main()
+^~~~
+int
+1 warning generated.
+
+Outputs for Below Test Cases
+
+
+#####Input (Test Case 1)#####
+4 6
+
+#####Output#####
+                Enter x and y in seconds: Required time is 5.125
+
+
+#####Input (Test Case 2)#####
+1 1
+
+#####Output#####
+                Enter x and y in seconds: Required time is 1.000
+
+Evaluated by: Harsh

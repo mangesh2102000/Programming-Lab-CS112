@@ -1,0 +1,58 @@
+1801CS16
+
+MARKS: 9
+
+COMMENTS:
+        Wrong Logic/No Implementaion: 0
+        Compilation Succ/Err(Correct Logic): 3: 3
+        Test Case 1 Passed: +3: 3
+        Test Case 2 Passed: +1: 1
+        Test Case 3 Passed: +3: 2
+        
+Warning And Errors
+prog2a.c:9:1: warning: return type of 'main' is not 'int' [-Wmain-return-type]
+void main()
+^
+prog2a.c:9:1: note: change return type to 'int'
+void main()
+^~~~
+int
+1 warning generated.
+
+Outputs for Below Test Cases
+
+
+#####Input (Test Case 1)#####
+0 1
+2 1
+2 3
+
+#####Output#####
+                Enter three points:
+Non-collinear
+Right Angled Triangle
+Area is 2.00
+
+
+#####Input (Test Case 2)#####
+1 1
+2 2
+3 3
+
+#####Output#####
+                Enter three points:
+Collinear
+
+
+#####Input (Test Case 3)#####
+-0.5 0.5
+0 0
+-1 0
+
+#####Output#####
+                Enter three points:
+Non-collinear
+Right Angled Triangle
+Area is -0.25
+
+Evaluated by: Harsh

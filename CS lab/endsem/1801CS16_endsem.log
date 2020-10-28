@@ -1,0 +1,39 @@
+1801CS16
+
+MARKS: 20
+
+COMMENTS:
+        Marks deducted due to late Submission: 0
+        Test Case 1 Passed: +10: 10
+        Test Case 2 Passed: +10: 10
+        
+Warning And Errors
+
+Outputs for Below Test Cases
+
+
+#####Input (Test Case 1)#####
+5 6
+
+Expected Output = 
+0 4 16 36 64 100 
+1 5 17 37 65 101 
+4 8 20 40 68 104 
+9 13 25 45 73 109 
+16 20 32 52 80 116
+
+0 4 16 36 64 100 101 104 109 116 80 52 32 20 16 9 4 1 5 17 37 65 68 73 45 25 13 8 20 40
+#####Output#####
+                
+0 4 16 36 64 100 
+1 5 17 37 65 101 
+4 8 20 40 68 104 
+9 13 25 45 73 109 
+16 20 32 52 80 116 
+
+the clockwise spiral listing is:
+
+0 4 16 36 64 100 101 104 109 116 80 52 32 20 16 9 4 1 5 17 37 65 68 73 45 25 13 8 20 40 
+
+
+Evaluated by: Harsh

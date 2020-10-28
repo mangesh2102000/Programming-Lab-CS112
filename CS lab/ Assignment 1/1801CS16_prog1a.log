@@ -1,0 +1,61 @@
+1801CS16
+
+MARKS: 10
+
+COMMENTS:
+        Wrong Logic/No Implementaion: 0
+        Compilation Succ/Err(Correct Logic): 2: 2
+        Test Case 1 Passed: +2: 2
+        Test Case 2 Passed: +2: 2
+        Test Case 3 Passed: +2: 2
+        Test Case 4 Passed: +2: 2
+        
+Warning And Errors
+prog1a.c:8:1: warning: return type of 'main' is not 'int' [-Wmain-return-type]
+void main()
+^
+prog1a.c:8:1: note: change return type to 'int'
+void main()
+^~~~
+int
+1 warning generated.
+
+Outputs for Below Test Cases
+
+
+#####Input (Test Case 1)#####
+1 2356 1
+Expected Output = 2357
+
+#####Output#####
+                Enter three numbers X (1: Addition or 2: Subtraction or 3: Multiplication or 4: Division), Y and Z
+Addition of 2356.000000 and 1.000000 is 2357.000000
+
+
+#####Input (Test Case 2)#####
+2 1024 2
+Expected Output = 1022
+
+#####Output#####
+                Enter three numbers X (1: Addition or 2: Subtraction or 3: Multiplication or 4: Division), Y and Z
+Subtraction of 1024.000000 and 2.000000 is 1022.000000
+
+
+#####Input (Test Case 3)#####
+3 400 3
+Expected Output = 1200
+
+#####Output#####
+                Enter three numbers X (1: Addition or 2: Subtraction or 3: Multiplication or 4: Division), Y and Z
+Multiplication of 400.000000 and 3.000000 is 1200.000000
+
+
+#####Input (Test Case 4)#####
+4 800 4
+Expected Output = 200
+
+#####Output#####
+                Enter three numbers X (1: Addition or 2: Subtraction or 3: Multiplication or 4: Division), Y and Z
+Division of 800.000000 and 4.000000 is 200.000000
+
+Evaluated by: Harsh
